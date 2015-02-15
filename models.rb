@@ -16,8 +16,10 @@ class Fighter
 	field :losses, type: Integer, default: 0
 	field :tags, type: Array, default: []
 
-	def self.gen(type = "dwarf") 
-		prot = JSON.parse(IO.read("prototypes.json"))[type]
+	def self.gen(type = nil)
+		prototypes = JSON.parse(IO.read("prototypes.json")) 
+		type ||= prototypes.keys.sample
+		prot = prototypes[type]
 		pic = prot['pic']
 		pic["frames"].map! do |frame|
 			puts "#{frame['image']}"

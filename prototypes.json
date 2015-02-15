@@ -8,8 +8,18 @@
 						"filters": [
 							{
 								"function" : "hue-rotate",
-								"value": [0, 30],
+								"value": [-30, 30],
 								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
 							}
 						]
 					},
@@ -19,17 +29,17 @@
 						"filters": [
 							{
 								"function" : "hue-rotate",
-								"value": [0, 359],
+								"value": [-180, 180],
 								"suffix": "deg"
 							},
 							{
 								"function" : "saturate",
-								"value": [40, 200],
+								"value": [70, 130],
 								"suffix": "%"
 							},
 							{
 								"function" : "brightness",
-								"value": [30, 110],
+								"value": [50, 150],
 								"suffix": "%"
 							}
 						]
@@ -40,17 +50,17 @@
 						"filters": [
 							{
 								"function" : "hue-rotate",
-								"value": [0, 359],
+								"value": [-180, 180],
 								"suffix": "deg"
 							},
 							{
 								"function" : "saturate",
-								"value": [50, 400],
+								"value": [80, 130],
 								"suffix": "%"
 							},
 							{
 								"function" : "brightness",
-								"value": [40, 200],
+								"value": [40, 150],
 								"suffix": "%"
 							}
 						]
@@ -101,6 +111,695 @@
 			"Tooth",
 			"Soldier",
 			"Champion"
+		]
+	},
+	"ninja": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/ninja/ninja_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-50, 50],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/ninja/ninja_flame.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 160],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Yoshi",
+			"Toshio",
+			"Ryu",
+			"Hideo-Tosh",
+			"Ono",
+			"Ryan",
+			"Sam",
+			"Lion",
+			"Mitomo"
+		],
+		"surnames" : [
+			"Nobunaga",
+			"Oda",
+			"Nakagawa",
+			"Motomo",
+			"Suzuki",
+			"Reiki",
+			"Kido",
+			"Hikari"
+		],
+		"title_prefixes": [
+			"Silent",
+			"Fatal",
+			"Steel", 
+			"Blazing",
+			"Delta",
+			"Dangerous",
+			"Venom",
+			"Hard",
+			"Lethal"
+		],
+		"title_suffixes": [
+			"Fire",
+			"Ninja",
+			"Kira",
+			"Demon",
+			"Flame",
+			"Scorpion",
+			"Blade",
+			"Fang",
+			"Agent",
+			"One"
+		]
+	},
+	"huntress": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/huntress/huntress_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-30, 30],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/huntress/huntress_skarf.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 150],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [60, 105],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/huntress/huntress_hair.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [60, 110],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Lisa",
+			"Arma",
+			"Janis",
+			"Oliva",
+			"Jana",
+			"Sybila",
+			"Kathlin",
+			"Hera",
+			"Virna"
+		],
+		"surnames" : [
+			"Starlet",
+			"Vyr",
+			"Lee",
+			"Wheelr",
+			"Varnish",
+			"Comet",
+			"Simmons",
+			"Ninxa"
+		],
+		"title_prefixes": [
+			"Bright",
+			"Light",
+			"Fast", 
+			"Last",
+			"Swift",
+			"Silver",
+			"Golden",
+			"Shiny",
+			"Lethal",
+			"Thin"
+		],
+		"title_suffixes": [
+			"Star",
+			"Huntress",
+			"Will",
+			"Focus",
+			"Tiger",
+			"Lioness",
+			"Fish",
+			"Bird",
+			"Falconess"
+		]
+	},
+	"mage": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/mage/mage_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-30, 30],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mage/mage_armor.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 160],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [30, 180],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mage/mage_purple.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 180],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [50, 155],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Lisa",
+			"Arma",
+			"Janis",
+			"Oliva",
+			"Jana",
+			"Sybila",
+			"Kathlin",
+			"Hera",
+			"Virna"
+		],
+		"surnames" : [
+			"Starlet",
+			"Vyr",
+			"Lee",
+			"Wheelr",
+			"Varnish",
+			"Comet",
+			"Simmons",
+			"Ninxa"
+		],
+		"title_prefixes": [
+			"Bright",
+			"Light",
+			"Fast", 
+			"Last",
+			"Swift",
+			"Silver",
+			"Golden",
+			"Shiny",
+			"Lethal",
+			"Thin"
+		],
+		"title_suffixes": [
+			"Star",
+			"Huntress",
+			"Will",
+			"Focus",
+			"Tiger",
+			"Lioness",
+			"Fish",
+			"Bird",
+			"Falconess"
+		]
+	},
+	"valkyrie": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/valkyrie/valkyrie_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-30, 30],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 120],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/valkyrie/valkyrie_shirt.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [60, 180],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [30, 180],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/valkyrie/valkyrie_hair.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [80, 180],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [80, 140],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Lisa",
+			"Arma",
+			"Janis",
+			"Oliva",
+			"Jana",
+			"Sybila",
+			"Kathlin",
+			"Hera",
+			"Virna"
+		],
+		"surnames" : [
+			"Starlet",
+			"Vyr",
+			"Lee",
+			"Wheelr",
+			"Varnish",
+			"Comet",
+			"Simmons",
+			"Ninxa"
+		],
+		"title_prefixes": [
+			"Bright",
+			"Light",
+			"Fast", 
+			"Last",
+			"Swift",
+			"Silver",
+			"Golden",
+			"Shiny",
+			"Lethal",
+			"Thin"
+		],
+		"title_suffixes": [
+			"Star",
+			"Huntress",
+			"Will",
+			"Focus",
+			"Tiger",
+			"Lioness",
+			"Fish",
+			"Bird",
+			"Falconess"
+		]
+	},
+	"mercenary": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/mercenary/mercenary_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-30, 30],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [60, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 130],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mercenary/mercenary_tattoo.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [70, 150],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [30, 130],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mercenary/mercenary_hair.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [70, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [40, 140],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mercenary/mercenary_belt.png",
+						"z-index": "130",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [70, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [40, 180],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/mercenary/mercenary_band.png",
+						"z-index": "140",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [70, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [40, 180],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Jean",
+			"Zarin",
+			"Rafix",
+			"Noel",
+			"Jardif",
+			"Youeen",
+			"Armak",
+			"Xaron",
+			"Fandro"
+		],
+		"surnames" : [
+			"Gaziv",
+			"Hakkir",
+			"Shatr",
+			"Palafren",
+			"Jahed",
+			"Drodan",
+			"Karleff",
+			"Lothson"
+		],
+		"title_prefixes": [
+			"Blood",
+			"Sand",
+			"Sunny", 
+			"Quick",
+			"Venom"
+		],
+		"title_suffixes": [
+			"Spider",
+			"Snake",
+			"Scorpion",
+			"Beetle",
+			"Assassin",
+			"Eagle",
+			"Cat",
+			"Walker",
+			"Warrior"
+		]
+	},
+	"minotaur": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/minotaur/minotaur_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [90, 140],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 120],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/minotaur/minotaur_skin.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [70, 180],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [40, 170],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/minotaur/minotaur_details.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [-180, 180],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [100, 190],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [100, 190],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Grash",
+			"Gnor",
+			"Korrash",
+			"Noel",
+			"Jardif",
+			"Youeen",
+			"Armak",
+			"Xaron",
+			"Fauno"
+		],
+		"surnames" : [
+			"Gaziv",
+			"Hakkir",
+			"Shatr",
+			"Palafren",
+			"Jahed",
+			"Drodan",
+			"Karleff",
+			"Lothson"
+		],
+		"title_prefixes": [
+			"Blood",
+			"Sand",
+			"Sunny", 
+			"Quick",
+			"Venom"
+		],
+		"title_suffixes": [
+			"Spider",
+			"Snake",
+			"Scorpion",
+			"Beetle",
+			"Assassin",
+			"Eagle",
+			"Cat",
+			"Walker",
+			"Warrior"
 		]
 	}
 }

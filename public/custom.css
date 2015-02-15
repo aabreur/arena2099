@@ -1,3 +1,8 @@
 .fighter {
-	height: 355px;
+	height: 180px;
+}
+
+.picFrame img {
+	height: 160px;
+	width: 160px;
 }

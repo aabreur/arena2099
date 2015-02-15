@@ -1,0 +1,19 @@
+<div class="figthers row">
+<% @fighters.each do |f| %>
+	<div class="fighter col-md-3">
+		<h2 class="name"><%= f.name %></h2>
+		<h3 class="title"><%= f.title %></h3>
+		<div class="pic">
+			<% f.pic["frames"].each do |frame| %>
+				<div style="position: absolute; z-index:<%= frame["z-index"] %>">
+				<img src="<%= frame['image'] %>" style="
+				<% %w{ filter -webkit-filter -moz-filter -o-filter -ms-filter }.each do |kit| %>
+					<%= kit + ': ' + frame['filters'].map { |filter| filter['function'] + "(" + filter['value'].to_s + filter['suffix'] + ")" }.join(" ") + ";" %>
+				<% end %>
+				">
+				</div> 
+			<% end %>
+		</div>	
+	</div>
+<% end %>
+</div>

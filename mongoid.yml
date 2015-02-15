@@ -1,0 +1,6 @@
+development:
+  sessions:
+    default:
+      database: arena
+      hosts:
+        - localhost:27017

@@ -1,0 +1,106 @@
+{
+	"dwarf": {
+		"pic": {
+				"frames": [
+					{
+						"image": "./pics/dwarf/dwarf_base.png",
+						"z-index": "100",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [0, 30],
+								"suffix": "deg"
+							}
+						]
+					},
+					{
+						"image": "./pics/dwarf/dwarf_armor.png",
+						"z-index": "110",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [0, 359],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [40, 200],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [30, 110],
+								"suffix": "%"
+							}
+						]
+					},
+					{
+						"image": "./pics/dwarf/dwarf_beard.png",
+						"z-index": "120",
+						"filters": [
+							{
+								"function" : "hue-rotate",
+								"value": [0, 359],
+								"suffix": "deg"
+							},
+							{
+								"function" : "saturate",
+								"value": [50, 400],
+								"suffix": "%"
+							},
+							{
+								"function" : "brightness",
+								"value": [40, 200],
+								"suffix": "%"
+							}
+						]
+					}
+				]
+			},
+		"names" : [
+			"Krull",
+			"Forhan",
+			"Dorrman",
+			"Badur",
+			"Ymin",
+			"Varhar",
+			"Bors",
+			"Lars",
+			"Rodargar"
+		],
+		"surnames" : [
+			"Fadun",
+			"Growlknan",
+			"Krammer",
+			"Darman",
+			"Wyllow",
+			"Philgs",
+			"Xerxan",
+			"Dagmar"
+		],
+		"title_prefixes": [
+			"Stone",
+			"Iron",
+			"Steel", 
+			"Copper",
+			"Marble",
+			"Silver",
+			"Golden",
+			"Hard",
+			"Cold",
+			"Strong"
+		],
+		"title_suffixes": [
+			"Bull",
+			"Goat",
+			"Hand",
+			"Beard",
+			"Armor",
+			"Shield",
+			"Axe",
+			"Tooth",
+			"Soldier",
+			"Champion"
+		]
+	}
+}

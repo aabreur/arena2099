@@ -1,0 +1,25 @@
+- map
+	- quest
+- realm
+	- livestock
+	- character
+		- fighter
+			- class
+				- skill
+		- worker
+			- profession
+	- land
+	- building
+		- workyard
+			- job
+		- arena
+
+- npc
+	- hostile
+	- ally
+	- trader
+
+
+-- profile
+	- achievement
+	- trading
